@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+<!DOCTYPE aptech [
+<!ELEMENT aptech (student )>   <!-- (student +) + ka symble use one time consition   aur (student*) ager student multiple ho tu ya use krta ha  -->
+<!ELEMENT student (id ,name, email)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+<aptech>
+<student>
+    <id>1</id>
+    <name>ali</name>
+    <email>ali@gmail.com</email>
+</student>
+<student>
+    <id>2</id>
+    <name>asif</name>
+    <email>asif@gmail.com</email>
+</student>
+</aptech>

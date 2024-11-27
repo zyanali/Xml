@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+<aptech>
+ <academic>
+  <TeachingAssistant>
+   <Assistent1>Ali Khan</Assistent1>
+   <Assistent2>Aisha Bukhari</Assistent2>
+   <Assistent3>Bilal Ahmed</Assistent3>
+  </TeachingAssistant>
+  <AssociateFaculty>
+   <Af1>Sara Ali</Af1>
+   <Af2>Faisal Rehman</Af2>
+   <Af3>Hina Malik</Af3>
+  </AssociateFaculty>
+ </academic>
+ <studentAfc>
+  <SRM>
+   <juniorfaculty>Omer Shah</juniorfaculty>
+   <seniorfaculty>Fatima Zahra</seniorfaculty>
+  </SRM>
+  <SRO>
+   <sro1>Kamran Khan</sro1>
+   <sro2>Nida Parveen</sro2>
+   <sro3>Usman Tariq</sro3>
+  </SRO>
+ </studentAfc>
+ <Examdepartment>
+  <std1>Ali</std1>
+  <std2>Asif</std2>
+  <std3>Amir</std3>
+ </Examdepartment>
+</aptech>

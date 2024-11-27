@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row" id="products">
+    <div class="col-md-6">
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="" >
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-price">Text</p>
+                <a href="product.html" style="margin-left: 35%;padding: 5px;"><button class="btn btn-info pl-4 pr-4">back</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6"> <div class="card">
+     
+        <div class="card-body">
+            <h4 class="card-title">Gucci</h4>
+                
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quae quasi, repellat nam, minima provident sed rem maxime repellendus assumenda ipsum perspiciatis magnam illum. Molestiae labore aliquam possimus maiores id.</p>
+            <a href="" style="margin-left: 25%;padding: 5px;"><button class="btn btn-info">Buy Now</button></a>
+            <a href=""  style="margin-left: 10px;"><button class="btn btn-warning">AddToCard</button></a>
+        </div>
+
+    </div>
+</div>
+    <script src="jquery/jquery-3.7.1.js"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+<script>
+let url = location.href
+    console.log(url);
+    let obj = new URL (url);
+    let pId = obj.searchParams.get('pid');
+    let pName = obj. searchParams.get('pname' );
+    let pPrice = obj. searchParams.get('pprice');
+    let pImage = obj. searchParams .get('pimage' );
+    $(".card-img-top"). attr("src", pImage) ;
+    $(".card-title").text(pName) ;
+    $(".card-price").text(pPrice);
+    </script>
+    </script>
+</body>
+</html>

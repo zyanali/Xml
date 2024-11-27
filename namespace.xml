@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UFT-8" ?>  <!-- namespaces use to element unique use <s1:id></s1:id>  than define  xmlns:s1="https:/aptech/s1" -->
+<aptech  xmlns:s1="https:/aptech/s1" xmlns:s2="https:/aptech/s2" xmlns:s3="https:/aptech/s3">
+<s1:student>
+ <s1:id>1</s1:id>
+    <s1:name>asif</s1:name>
+    <s1:email>asif@gmail.com</s1:email>
+</s1:student>
+<s2:student>
+    <s2:id>1</s2:id>
+    <s2:name>ali</s2:name>
+    <s2:email>ali@gmail.com</s2:email>
+</s2:student>
+</aptech>

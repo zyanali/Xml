@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UFT-8" ?>
+<aptech>
+<student field="art">
+    <id>1</id>
+    <name>ali</name>
+    <email>ali@gmail.com</email>
+</student>
+<student field="cs">
+    <id>2</id>
+    <name>asif</name>
+    <email>asif@gmail.com</email>
+</student>
+</aptech>

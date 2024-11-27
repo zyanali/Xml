@@ -1,0 +1,80 @@
+{
+    "J": [
+        {
+            "id": 1,
+            "name": "Gucci BagA78",
+            "price": 560000,
+            "image": "images/bg1.avif"
+        },
+        {
+            "id": 2,
+            "name": "Gucci BagR678",
+            "price": 970000,
+            "image": "images/bg2.avif"
+        },
+        {
+            "id": 3,
+            "name": "Gucci BagR809",
+            "price": 900000,
+            "image": "images/bg3.avif"
+        },
+        {
+            "id": 4,
+            "name": "Gucci BagV67",
+            "price": 670000,
+            "image": "images/bg4.avif"
+        }
+    ],
+    "Shoes": [
+        {
+            "id": 5,
+            "name": "Nike SH780",
+            "price": 780000,
+            "image": "images/sh1.png"
+        },
+        {
+            "id": 6,
+            "name": "Nike SHA78",
+            "price": 780000,
+            "image": "images/sh2.png"
+        },
+        {
+            "id": 7,
+            "name": "Nike SH7A8B",
+            "price": 780000,
+            "image": "images/sh3.png"
+        },
+        {
+            "id": 8,
+            "name": "Nike SH7GH8",
+            "price": 780000,
+            "image": "images/sh4.png"
+        }
+    ],
+    "Perfumes": [
+        {
+            "id": 9,
+            "name": "J. PRF70",
+            "price": 2000,
+            "image": "images/p1.webp"
+        },
+        {
+            "id": 10,
+            "name": "J. PRA78",
+            "price": 5000,
+            "image": "images/p2.webp"
+        },
+        {
+            "id": 11,
+            "name": "J. PR978",
+            "price": 7000,
+            "image": "images/p3.webp"
+        },
+        {
+            "id": 12,
+            "name": "J. PRY76",
+            "price": 6000,
+            "image": "images/p4.webp"
+        }
+    ]
+}
